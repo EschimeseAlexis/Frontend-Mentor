@@ -1,44 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-</head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
   <body>
-    <div class="card">
-      <div class="card-top"></div>
-      <div class="card-middle">
-        <img class="identity-picture" src="images/image-victor.jpg" alt="identity">
-        <div class="identity">
-          <p>Victor Crest <span>26</span></p>
+    <div class="container">
+      <div class="upper-container">
+        <div class="Header">
+          <h1>10,000+ of our <br/>users love our <br/>products.</h1>
+          <p>We only provide great products combined with excellent customer service.
+            See what our satisfied customers are saying about our services.</p>
         </div>
-        <div class="city">
-          London
+
+        <div class="Ratings">
+          <div class="Rate">
+            <div class="Stars">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+            </div>
+            <p class="Rating-comment">Rated 5 Stars in Reviews</p>
+          </div>
+          <div class="Rate">
+            <div class="Stars">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+            </div>
+            <p class="Rating-comment">Rated 5 Stars in Report Guru</p>
+          </div>
+          <div class="Rate">
+            <div class="Stars">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+              <img src="images/icon-star.svg" alt="icon-star">
+            </div>
+            <p class="Rating-comment">Rated 5 Stars in BestTech</p>
+          </div>
         </div>
       </div>
-      <div class="card-bot">
-        <div class="stats">
-          <p class="stats-number">80K</p>
-          <p class="stats-name">Followers</p>
-        </div>
-        <div class="stats">
-          <p class="stats-number">803K</p>
-          <p class="stats-name">Likes</p>
-        </div>
-        <div class="stats">
-          <p class="stats-number">1.4K</p>
-          <p class="stats-name">Photos</p>
+
+      <div class="lower-container">
+        <div class="Comment-section">
+          <div class="Comment">
+            <div class="Commentator">
+              <img class="Commentator-picture" src="images/image-colton.jpg" alt="Colton">
+              <div class="Commentator-identity">
+                <p class="Commentator-name">Colton Smith</p>
+                <p class="Commentator-status">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="Comment-text">"We needed the same printed design as the one we had ordered a week prior.
+            Not only did they find the original order, but we also received it in time.
+              Excellent!"</p>
+          </div>
+
+          <div class="Comment">
+            <div class="Commentator">
+              <img class="Commentator-picture" src="images/image-irene.jpg" alt="Irene">
+              <div class="Commentator-identity">
+                <p class="Commentator-name">Irene Roberts</p>
+                <p class="Commentator-status">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="Comment-text">"Customer service is always excellent and very quick turn around. Completely
+              delighted with the simplicity of the purchase and the speed of delivery."</p>
+          </div>
+
+          <div class="Comment">
+            <div class="Commentator">
+              <img class="Commentator-picture" src="images/image-anne.jpg" alt="Anne">
+              <div class="Commentator-identity">
+                <p class="Commentator-name">Anne Wallace</p>
+                <p class="Commentator-status">Verified Buyer</p>
+              </div>
+            </div>
+            <p class="Comment-text">"Put an order with this company and can only praise them for the very high
+              standard. Will definitely use them again and recommend them to everyone!"</p>
+          </div>
         </div>
       </div>
     </div>
+
     <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="https://github.com/EschimeseAlexis">Alexis Eschimese</a>.
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/EschimeseAlexis">Eschimese Alexis</a>.
     </div>
   </body>
 </html>
