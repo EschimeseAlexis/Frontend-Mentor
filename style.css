@@ -1,0 +1,185 @@
+:root {
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+    --color-dark-blue: hsl(234, 12%, 34%);
+    --color-grayish-blue: hsl(229, 6%, 66%);
+    --color-light-gray: hsl(0, 0%, 98%);
+
+    --font-weight-light: 200;
+    --font-weight-medium: 400;
+    --font-weight-heavy: 600;
+}
+
+/* I DON'T KNOW WHY BUT I CAN'T USE VAR() ON THIS ONE =/ */
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 35vw;
+    margin: 6vh 0 3vh 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    align-self: center;
+    font-size: 2.4em;
+    margin-bottom: 3%;
+    white-space: nowrap;
+}
+
+.header-span {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.header p {
+    text-align: center;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    font-size: 1em;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    '.     card2     .'
+    'card1 card2 card4'
+    'card1 card3 card4'
+    '.     card3     .';
+}
+
+.card-component {
+    width: 23vw;
+    height: 29vh;
+    border-radius: 0.8rem;
+    box-shadow: 0 10px 30px -10px rgba(0,0,0,0.3);
+    margin: 1rem;
+    position: relative;
+}
+
+.card-title {
+    margin: 2.5vh 0 1.2vh 3vh;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+
+.card-content {
+    width: 81%;
+    margin-left: 3vh;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    line-height: 2;
+}
+
+.card-img {
+    position: absolute;
+    bottom: 12%;
+    right: 12%;
+}
+
+.card-component:nth-of-type(1) {
+    grid-area: card1;
+    border-top: 0.35rem solid hsl(180, 62%, 55%);
+}
+
+.card-component:nth-of-type(2) {
+    grid-area: card2;
+    border-top: 0.35rem solid hsl(0, 78%, 62%);
+}
+
+.card-component:nth-of-type(3) {
+    grid-area: card3;
+    border-top: 0.35rem solid hsl(34, 97%, 64%);
+}
+
+.card-component:nth-of-type(4) {
+    grid-area: card4;
+    border-top: 0.35rem solid hsl(212, 86%, 64%);
+}
+
+@media (min-width: 850px) {
+    .attribution {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+}
+
+@media (max-width: 850px) {
+
+    .header p {
+        align-self: center;
+        width: 60vw;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5vh;
+    }
+
+    .card-component {
+        align-self: center;
+        width: 350px;
+    }
+
+    .attribution {
+        font-size: 0.8em;
+    }
+
+    .attribution a {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .header {
+        margin: 10vh 0 8vh 0;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+        margin-bottom: 2vh;
+    }
+
+    .header p {
+        width: 90vw;
+        font-size: 1.1em;
+    }
+
+    .card-title {
+        font-size: 1.4em;
+    }
+
+    .card-content {
+        width: 75%;
+    }
+}

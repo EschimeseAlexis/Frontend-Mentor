@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d93def99-571d-4299-9479-b051ca69e640" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/desktop-design.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/desktop-design.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/desktop-preview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/desktop-preview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/mobile-design.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/design/mobile-design.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-pattern-bottom-desktop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-pattern-bottom-mobile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-pattern-top-desktop.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bg-pattern-top-mobile.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/icon-star.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image-anne.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image-colton.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/image-irene.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style-guide.md" beforeDir="false" afterPath="$PROJECT_DIR$/style-guide.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="hiddenUrls">
@@ -61,6 +57,11 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,6 +78,7 @@
       <workItem from="1609612823480" duration="2153000" />
       <workItem from="1609694042788" duration="9786000" />
       <workItem from="1610481871800" duration="128000" />
+      <workItem from="1610482020863" duration="7483000" />
     </task>
     <servers />
   </component>
