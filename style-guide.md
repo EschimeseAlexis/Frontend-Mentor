@@ -11,14 +11,16 @@ The designs were created to the following widths:
 
 ### Primary
 
-Very Dark Magenta: hsl(300, 43%, 22%)
-Soft Pink: hsl(333, 80%, 67%)
+- Red: hsl(0, 78%, 62%)
+- Cyan: hsl(180, 62%, 55%)
+- Orange: hsl(34, 97%, 64%)
+- Blue: hsl(212, 86%, 64%)
 
 ### Neutral
 
-Dark Grayish Magenta: hsl(303, 10%, 53%)
-Light Grayish Magenta: hsl(300, 24%, 96%)
-White: hsl(0, 0%, 100%)
+- Very Dark Blue: hsl(234, 12%, 34%)
+- Grayish Blue: hsl(229, 6%, 66%)
+- Very Light Gray: hsl(0, 0%, 98%)
 
 ## Typography
 
@@ -26,7 +28,7 @@ White: hsl(0, 0%, 100%)
 
 - Font size: 15px
 
-### Font
+### Fonts
 
-- Family: [Spartan](https://fonts.google.com/specimen/Spartan)
-- Weights: 400, 500, 700
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 200, 400, 600
